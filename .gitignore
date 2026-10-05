@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+*.env
+.env.*
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Model files (large binaries - optional, comment out if you want to track them)
+# models/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
